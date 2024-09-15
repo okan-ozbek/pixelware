@@ -8,6 +8,9 @@
                 id="tjip"
                 logo-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6ujJDazpqUHgLkDkdjCczrkYY0bOe746wQ&s"
             >
+                <template #imagery>
+                    <div class="rectangle"></div>
+                </template>
                 <template #intro>
                     TJIP is een Nederlands technologiebedrijf dat digitale platformen ontwikkelt voor sectoren zoals financiële diensten, gezondheidszorg, en vastgoed.
                     Hun oplossingen helpen organisaties complexe processen te digitaliseren, bijvoorbeeld bij hypotheekaanvragen en verzekeringen.
@@ -28,6 +31,9 @@
                 id="alflex"
                 logo-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6ujJDazpqUHgLkDkdjCczrkYY0bOe746wQ&s"
             >
+                <template #imagery>
+                    <div class="rectangle"></div>
+                </template>
                 <template #intro>
                     Alflex Technologies is een Nederlands bedrijf dat gespecialiseerd is in industriële automatisering en innovatieve oplossingen voor productieprocessen.
                     Ze leveren op maat gemaakte hardware- en softwareoplossingen voor verschillende sectoren, zoals de voedingsmiddelenindustrie, farmacie en machinebouw.
@@ -49,6 +55,9 @@
                 :has-expertise-paragraph="false"
                 :has-list="false"
             >
+                <template #imagery>
+                    <div class="rectangle"></div>
+                </template>
                 <template #intro>
                     Ontwikkelde een algoritme voor een online vacaturebord dat de productiviteit van de arbeidskracht verhoogde door kandidaten te matchen met banen op basis van diverse criteria.
                 </template>

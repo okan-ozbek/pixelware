@@ -1,8 +1,10 @@
 <template>
     <section :id="id">
         <img :alt="logoAlt" :src="logoSrc"/>
-        <div>
-            <div class="rectangle"></div>
+        <div v-show="hasImagery" class="imagery">
+            <slot name="imagery">
+                <div class="rectangle"></div>
+            </slot>
         </div>
         <div class="resume">
             <p class="intro" v-show="hasIntro">
@@ -25,6 +27,10 @@ import {computed} from "vue";
 const props = defineProps({
     id: String,
     logoSrc: String,
+    hasImagery: {
+        type: Boolean,
+        default: true,
+    },
     hasIntro: {
         type: Boolean,
         default: true,
@@ -36,7 +42,7 @@ const props = defineProps({
     hasList: {
         type: Boolean,
         default: true,
-    },
+    }
 })
 
 const logoAlt = computed(() => {
