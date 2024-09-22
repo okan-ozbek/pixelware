@@ -1,6 +1,6 @@
 <template>
     <section id="contact-me">
-        <form>
+            <form action="mailto:o.ozbek@pixelware.nl">
             <input type="text" name="full-name" placeholder="Okan Can Ozbek" />
             <input type="text" name="email" placeholder="o.ozbek@pixelware.nl" />
             <textarea name="wishes" placeholder="Describe your wishes.." />
@@ -58,7 +58,6 @@
     border-bottom: 1px solid #252525;
     background-color: #0A0A0A;
     resize: vertical;
-    width: max-content;
     width: 100% !important;
     height: 20vh !important;
     color: #b8b8b8;

@@ -29,7 +29,8 @@
             </main-content>
             <main-content
                 id="alflex"
-                logo-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6ujJDazpqUHgLkDkdjCczrkYY0bOe746wQ&s"
+                logo-src="https://www.vtscada.com/wp-content/uploads/2021/09/Alflex-Logo-900.png"
+                logo-width="20rem"
             >
                 <template #imagery>
                     <div class="rectangle"></div>
@@ -51,7 +52,8 @@
             </main-content>
             <main-content
                 id="pro-digitaal"
-                logo-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6ujJDazpqUHgLkDkdjCczrkYY0bOe746wQ&s"
+                logo-src="https://www.pro-digitaal.nl/assets/files/pro-digitaal-logo-groot.png"
+                logo-width="25rem"
                 :has-expertise-paragraph="false"
                 :has-list="false"
             >

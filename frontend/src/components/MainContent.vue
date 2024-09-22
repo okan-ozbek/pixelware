@@ -1,6 +1,6 @@
 <template>
     <section :id="id">
-        <img :alt="logoAlt" :src="logoSrc"/>
+        <img :alt="logoAlt" :src="logoSrc" :style="logoStyle" />
         <div v-show="hasImagery" class="imagery">
             <slot name="imagery">
                 <div class="rectangle"></div>
@@ -27,6 +27,7 @@ import {computed} from "vue";
 const props = defineProps({
     id: String,
     logoSrc: String,
+    logoWidth: String,
     hasImagery: {
         type: Boolean,
         default: true,
@@ -47,6 +48,10 @@ const props = defineProps({
 
 const logoAlt = computed(() => {
     return props.id[0].toUpperCase() + props.id.slice(1) + " Logo";
+})
+
+const logoStyle = computed(() => {
+    return "width: " + props.logoWidth;
 })
 </script>
 <style>
